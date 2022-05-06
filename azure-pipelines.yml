@@ -9,7 +9,7 @@ trigger:
 variables:
 
   # Azure Resource Manager connection created during pipeline creation
-  azureSubscription: '85c7908d-8028-4894-af5d-1991ee8f0450'
+  azureSubscription: 'may-6-2022'
 
   # Web app name
   webAppName: 'local-library-app'
