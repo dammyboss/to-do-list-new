@@ -1,0 +1,19 @@
+apiVersion : apps/v1
+kind: Deployment
+metadata:
+  name: dammybosstodolistnew 
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: dammybosstodolistnew
+  template:
+    metadata:
+      labels:
+        app: dammybosstodolistnew 
+    spec:
+      containers:
+        - name: dammybosstodolistnew 
+          image: mydamiacr.azurecr.io/dammybosstodolistnew
+          ports:
+          - containerPort: 80
